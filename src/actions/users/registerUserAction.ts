@@ -14,7 +14,6 @@ export const registerUserAction = async (data: Iuser) => {
             }
         } 
 
-        // create user di database 
         await createUser(data)
 
         return {
